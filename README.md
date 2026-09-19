@@ -25,3 +25,12 @@ Grammar Engine
 AI Reasoning
       ↓
 Living Knowledge
+
+
+## Run Locally
+
+Tạo và kích hoạt virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
