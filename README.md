@@ -4,6 +4,11 @@
 
 LIS là một hệ thống trí tuệ học tập được định hướng như một **hạ tầng tri thức sống**, kết nối con người, tri thức và AI để hỗ trợ việc kiến tạo, tổ chức và phát triển tri thức trong giáo dục.
 
+
+## Preview
+
+![LIS Homepage Preview](static/images/lis-preview.png)
+
 ## Core Idea
 
 LIS được xây dựng xoay quanh bốn thành phần chính:
