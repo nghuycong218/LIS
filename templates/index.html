@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>LIS - Learning Intelligence System</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="brand">
+    <img
+        src="{{ url_for('static', filename='images/logo-nute.jpg') }}"
+        alt="Logo Trường Đại học Sư phạm Kỹ thuật Nam Định"
+        class="brand-logo"
+    >
+
+    <div class="brand-text">
+        <strong>TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT NAM ĐỊNH</strong>
+        <span>NAM DINH UNIVERSITY OF TECHNOLOGY EDUCATION</span>
+        <small>Tri thức - Kỹ thuật - Con người - Vì tương lai</small>
+    </div>
+</div>
+
+        <div class="header-right">
+
+    <nav>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Kiến trúc</a>
+        <a href="#">Living Book</a>
+        <a href="#">SBBS</a>
+        <a href="#">Liên hệ</a>
+    </nav>
+
+    <div class="header-tools">
+        <button class="search-button" aria-label="Tìm kiếm">
+            🔍
+        </button>
+
+        <button class="login-button">
+            Đăng nhập
+        </button>
+    </div>
+
+</div>
+    </header>
+
+    <main>
+
+    <section class="hero">
+
+        <div class="hero-left">
+
+            <p>LIS · NUTE · SBBS</p>
+
+            <h1>LIS</h1>
+
+            <h2>Learning Intelligence System</h2>
+
+            <h3>Kiến tạo - Chuẩn mực</h3>
+
+            <p>
+                Hạ tầng tri thức sống cho giáo dục thế hệ mới.
+                Kết nối con người – tri thức – AI,
+                kiến tạo giá trị bền vững vì một xã hội học tập thông minh.
+            </p>
+
+            <button>Khám phá LIS</button>
+            <button>Xây dựng cùng SBBS</button>
+            <div class="value-pillars">
+
+    <div class="value-item">
+        <div class="value-icon">01</div>
+        <div>
+            <strong>Tri thức sống</strong>
+            <span>Lan tỏa giá trị</span>
+        </div>
+    </div>
+
+    <div class="value-item">
+        <div class="value-icon">02</div>
+        <div>
+            <strong>Công nghệ tiên phong</strong>
+            <span>Phục vụ giáo dục</span>
+        </div>
+    </div>
+
+    <div class="value-item">
+        <div class="value-icon">03</div>
+        <div>
+            <strong>Con người làm trung tâm</strong>
+            <span>Vì một tương lai tốt đẹp hơn</span>
+        </div>
+    </div>
+
+</div>
+
+        </div>
+
+        <div class="hero-right">
+
+    <div class="core-stage">
+
+        <div class="core-node node-atoms">
+            <h3>Knowledge Atoms</h3>
+            <p>Tri thức ở dạng nguyên tử</p>
+        </div>
+
+        <div class="core-node node-graph">
+            <h3>Knowledge Graph</h3>
+            <p>Kết nối tri thức</p>
+        </div>
+        <div class="wire wire-atoms"></div>
+        <div class="wire wire-graph"></div>
+        <div class="wire wire-grammar"></div>
+        <div class="wire wire-reasoning"></div>
+
+        <div class="lis-core">
+            <svg class="knowledge-network" viewBox="0 0 100 100">
+
+        <line x1="28" y1="22" x2="70" y2="18" />
+        <line x1="28" y1="22" x2="14" y2="48" />
+        <line x1="28" y1="22" x2="50" y2="50" />
+
+        <line x1="70" y1="18" x2="86" y2="46" />
+        <line x1="70" y1="18" x2="50" y2="50" />
+
+        <line x1="14" y1="48" x2="30" y2="80" />
+        <line x1="14" y1="48" x2="50" y2="50" />
+
+        <line x1="86" y1="46" x2="72" y2="82" />
+        <line x1="86" y1="46" x2="50" y2="50" />
+
+        <line x1="30" y1="80" x2="72" y2="82" />
+        <line x1="30" y1="80" x2="50" y2="50" />
+        <line x1="72" y1="82" x2="50" y2="50" />
+
+    </svg>
+
+    <span class="knowledge-dot dot-1"></span>
+    <span class="knowledge-dot dot-2"></span>
+    <span class="knowledge-dot dot-3"></span>
+    <span class="knowledge-dot dot-4"></span>
+    <span class="knowledge-dot dot-5"></span>
+    <span class="knowledge-dot dot-6"></span>
+
+    <h2>LIS</h2>
+    <p>Living Knowledge</p>
+
+</div>
+
+        <div class="core-node node-grammar">
+            <h3>Grammar Engine</h3>
+            <p>Ngữ pháp tri thức</p>
+        </div>
+
+        <div class="core-node node-reasoning">
+            <h3>AI Reasoning</h3>
+            <p>Từ tri thức đến hành động</p>
+        </div>
+        <div class="core-foundation">
+    <span>HUMAN</span>
+    <i></i>
+
+    <span>KNOWLEDGE</span>
+    <i></i>
+
+    <span>AI</span>
+    <i></i>
+
+    <span>CO-CREATION</span>
+</div>
+    </div>
+
+</div>
+<aside class="hero-philosophy">
+
+    <span>Con người</span>
+    <strong>+</strong>
+
+    <span>Tri thức</span>
+    <strong>+</strong>
+
+    <span>AI</span>
+    <strong>+</strong>
+
+    <em>Một tương lai<br>tốt đẹp hơn</em>
+    <div class="quote-card">
+    <blockquote>
+        “Tri thức hôm nay<br>
+        cho một tương lai tốt đẹp hơn.”
+    </blockquote>
+
+    <span>NUTE · LIS · FOR A SMARTER TOMORROW</span>
+</div>
+
+</aside>
+    </section>
+
+    </main>
+
+</body>
+</html>
